@@ -25,8 +25,8 @@ jobs:
 
       - name: Run tests
         run: |
-        export PYTHONPATH = .
-        pytest
+          export PYTHONPATH = .
+          pytest
   
   build:
     needs: test
